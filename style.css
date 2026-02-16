@@ -1,0 +1,27 @@
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont;
+background:#0d0d0f;
+color:#fff;
+}
+.app{max-width:430px;margin:auto;padding:20px;}
+.header{display:flex;justify-content:space-between;align-items:center;}
+.rank{padding:6px 12px;border-radius:20px;background:#1c1c1f;font-size:14px;}
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:20px;
+margin:15px 0;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:transform 0.2s;
+}
+.card:active{transform:scale(0.97);}
+.progress-bar{height:8px;background:#1c1c1f;border-radius:10px;overflow:hidden;margin-top:10px;}
+.progress{height:100%;width:0%;background:#fff;}
+.bottom-nav{
+position:fixed;bottom:0;left:0;right:0;
+display:flex;justify-content:space-around;
+background:#111;padding:15px 0;}
+.bottom-nav button{
+background:none;border:none;color:#fff;font-size:14px;}

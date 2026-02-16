@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas Day</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="app">
+<header class="header">
+<h1>Atlas Day</h1>
+<div class="rank" id="rank">Bronze</div>
+</header>
+
+<section class="card">
+<h2 id="xp">0 XP</h2>
+<div class="progress-bar">
+<div class="progress" id="progress"></div>
+</div>
+</section>
+
+<section class="card">
+<canvas id="chart"></canvas>
+</section>
+
+<nav class="bottom-nav">
+<button onclick="addXP(50)">Treino</button>
+<button onclick="addXP(30)">Estudo</button>
+<button onclick="addXP(20)">Rotina</button>
+<button onclick="addMoney(100)">+R$</button>
+</nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Atlas Day",
+  "short_name": "Atlas",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#0d0d0f",
+  "start_url": "index.html"
+}
